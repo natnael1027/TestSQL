@@ -15,6 +15,13 @@
 -- Exercise 1 Creating a Stored Procedure to perform administrative tasks
 ---------------------------------------------------------------------
 
+
+
+
+---------------------------------------------------------------------
+---New Exercises to be uploaded on Git --------------------
+---------------------------------------------------------------
+
 -- 1.	First develop a WHILE loop 
 DECLARE @databasename AS NVARCHAR(128);
 SET @databasename = (SELECT MIN(name) FROM sys.databases WHERE name NOT IN 
